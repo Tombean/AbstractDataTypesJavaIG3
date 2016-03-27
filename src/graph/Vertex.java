@@ -1,7 +1,7 @@
 package graph;
 
 public class Vertex {
-	double[] coordinates;
+	protected double[] coordinates;
 	public Vertex( double[] values ){
 		if (values.length > 0){
 			coordinates =  new double[values.length];

@@ -1,7 +1,7 @@
 package graph;
 
 public abstract class Edge {
-	Vertex[] vertex;
+	protected Vertex[] vertex;
 	
 	public Vertex[] getEnds(){
 		return this.vertex;
