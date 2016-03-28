@@ -1,14 +1,11 @@
 package graph;
 
-<<<<<<< HEAD
 public class DirectedEdge extends Edge {
 	// In this class, vertex[0] will be considered as the origin of the directed edge and vertex[1] as the end of the vertex.
-	public DirectedEdge(Vertex[] vertexInit){
+	public DirectedEdge(Vertex sourceVertex, Vertex targetVertex){
 		this.vertex = new Vertex[2];
-		if (vertexInit.length ==  2 ){
-			this.vertex = vertexInit;
-		}
-		else{ System.out.println("An edge needs 2 vertexes, the amount of vertex given for this edge is wrong, the edge hasn't been initialized. ");}
+		this.vertex[0] = sourceVertex;
+		this.vertex[1] = targetVertex;
 	}
 	
 	public Vertex getOrigin(){
