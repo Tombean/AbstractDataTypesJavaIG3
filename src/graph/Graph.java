@@ -100,6 +100,6 @@ public interface Graph {
 	 * @param vertices :  array of Edge
 	 * @return true if all edges have been removed with no issue
 	 */
-	public boolean removeAllEdges( Edges[] edges );
+	public boolean removeAllEdges( Edge[] edges );
 	
 }
