@@ -1,5 +1,6 @@
 package graph;
 
+<<<<<<< HEAD
 public class DirectedEdge extends Edge {
 	// In this class, vertex[0] will be considered as the origin of the directed edge and vertex[1] as the end of the vertex.
 	public DirectedEdge(Vertex[] vertexInit){
