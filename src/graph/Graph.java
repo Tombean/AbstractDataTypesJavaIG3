@@ -102,4 +102,11 @@ public interface Graph {
 	 */
 	public boolean removeAllEdges( Edge[] edges );
 	
+	/**
+	 * Check if two edges are adjacent
+	 * @param A
+	 * @param B
+	 * @return returns true if the two edges are adjacent
+	 */
+	public boolean isAdjacent( Edge A, Edge B);
 }
