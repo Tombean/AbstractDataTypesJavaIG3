@@ -11,6 +11,7 @@ public class DirectedEdge extends Edge {
 		this.vertex = new Vertex[2];
 		this.vertex[0] = sourceVertex;
 		this.vertex[1] = targetVertex;
+		System.out.println("DirectedVertex created");
 	}
 	
 	/**Returns the source of a vertex, which is the first element of the array
