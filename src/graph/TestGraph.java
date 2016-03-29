@@ -7,6 +7,8 @@ public class TestGraph  {
 		double coordinatesB[] = {1.0 , 1.0 };
 		Vertex A =  new Vertex( coordinatesA );
 		Vertex B =  new Vertex( coordinatesB );
+		DirectedEdge dEdge = new DirectedEdge( A, B);
+		System.out.println("test");
 	}
 
 }
