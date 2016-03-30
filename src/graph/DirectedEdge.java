@@ -25,7 +25,7 @@ public class DirectedEdge extends Edge {
 	 * @ return the target point
 	 */
 	public Vertex getEnd(){
-		return this.vertex[0];
+		return this.vertex[1];
 	}
 	
 	/**
